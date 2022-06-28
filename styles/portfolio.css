@@ -1,0 +1,49 @@
+:root {
+  --main-font-family: "Voces", cursive;
+  --regular-font-family: "Roboto", sans-serif;
+  --background-color: #072539;
+  --secondary-color: #fbf3f2;
+}
+
+.hero {
+  background: var(--background-color);
+  color: var(--secondary-color);
+  text-align: center;
+  padding: 200px 20px;
+}
+
+.hero h1 {
+  font-family: var(--regular-font-family);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.hero h2 {
+  font-family: var(--main-font-family);
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 130px;
+}
+
+.hero h3 {
+  font-family: var(--regular-font-family);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.btn-branding {
+  background: var(--secondary-color);
+  color: var(--background-color);
+  border-radius: 50px;
+  padding: 18px 51px;
+  font-size: 18px;
+  line-height: 27px;
+  transition: all 150ms ease-in-out;
+}
+
+.btn-branding:hover {
+  opacity: 0.85;
+  color: #56727d;
+}
