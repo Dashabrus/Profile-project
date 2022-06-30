@@ -7,7 +7,9 @@
 body {
   background: var(--secondary-color);
 }
-
+.navbar {
+  color: var(--secondary-color);
+}
 .hero {
   background: var(--background-color);
   color: var(--secondary-color);
