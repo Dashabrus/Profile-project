@@ -325,18 +325,25 @@ img {
     padding: 5px 15px;
   }
   .work h1 {
-    font-size: 80px;
+    font-size: 60px;
   }
   .work h3 {
     margin-top: 20px;
-    margin-bottom: 30px;
-    font-size: 30px;
+    margin-bottom: 15px;
+    font-size: 25px;
+  }
+
+  .name-link a {
+    font-size: 45px;
+  }
+  .work p {
+    font-size: 20px;
   }
   .contact-page .heading {
-    font-size: 50px;
+    font-size: 45px;
   }
   .contact-page p {
-    margin: 50px 0;
+    margin: 50px 0 0;
     text-align: center;
   }
 }
