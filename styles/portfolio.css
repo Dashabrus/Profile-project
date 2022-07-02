@@ -133,6 +133,7 @@ img {
   font-weight: bold;
   font-family: var(--regular-font-family);
   color: var(--background-color);
+  transition: all 150ms ease-in-out;
 }
 .contact a:hover {
   opacity: 0.85;
@@ -148,6 +149,7 @@ img {
   font-size: 40px;
   text-decoration: none;
   color: var(--background-color);
+  transition: all 150ms ease-in-out;
 }
 
 .icons a:hover {
@@ -222,6 +224,7 @@ img {
   font-weight: 600;
   text-decoration: none;
   color: var(--background-color);
+  transition: all 150ms ease-in-out;
 }
 
 .name-link a:hover {
@@ -245,6 +248,37 @@ img {
 
 .project {
   padding: 20px 25px;
+}
+
+.contact-page {
+  padding: 100px 20px 20px;
+  background: var(--secondary-color);
+  color: var(--background-color);
+}
+
+.contact-page .heading {
+  font-size: 75px;
+  font-family: var(--main-font-family);
+  line-height: 1.4;
+  margin-bottom: 70px;
+}
+
+.contact-page p {
+  font-size: 24px;
+  font-family: var(--regular-font-family);
+  font-weight: 500;
+}
+
+.contact-page-link a {
+  text-decoration: none;
+  opacity: 0.7;
+  color: var(--background-color);
+  transition: all 100ms ease-in-out;
+}
+
+.contact-page-link a:hover {
+  opacity: 1;
+  font-weight: 600;
 }
 
 @media (max-width: 900px) {
@@ -297,5 +331,12 @@ img {
     margin-top: 20px;
     margin-bottom: 30px;
     font-size: 30px;
+  }
+  .contact-page .heading {
+    font-size: 50px;
+  }
+  .contact-page p {
+    margin: 50px 0;
+    text-align: center;
   }
 }
