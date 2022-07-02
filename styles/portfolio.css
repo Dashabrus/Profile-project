@@ -88,7 +88,7 @@ img {
   margin-left: 30px;
 }
 
-.work {
+.inquiry {
   background: #072539;
   border-radius: 20px;
   padding: 15px 50px 10px;
@@ -96,7 +96,7 @@ img {
   display: flex;
   justify-content: space-between;
 }
-.work h1 {
+.inquiry h1 {
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 48px;
@@ -104,7 +104,7 @@ img {
   color: var(--secondary-color);
 }
 
-.work h3 {
+.inquiry h3 {
   font-family: var(--regular-font-family);
   font-weight: 400;
   font-size: 20px;
@@ -112,7 +112,7 @@ img {
   color: #fff8f8f1;
 }
 
-.work a {
+.inquiry a {
   background: var(--secondary-color);
   color: var(--background-color);
   font-family: var(--regular-font-family);
@@ -124,7 +124,7 @@ img {
   margin: 50px 30px 50px 150px;
 }
 
-.work a:hover {
+.inquiry a:hover {
   color: var(--background-color);
 }
 .contact a {
@@ -148,6 +148,10 @@ img {
   font-size: 40px;
   text-decoration: none;
   color: var(--background-color);
+}
+
+.icons a:hover {
+  opacity: 0.8;
 }
 
 .about {
@@ -201,6 +205,48 @@ img {
   color: #d5d1d0;
 }
 
+.work {
+  background: var(--secondary-color);
+  color: var(--background-color);
+  padding: 100px 15px;
+  font-family: var(--regular-font-family);
+}
+
+.work h1 {
+  font-size: 70px;
+  font-family: var(--main-font-family);
+}
+
+.name-link a {
+  font-size: 48px;
+  font-weight: 600;
+  text-decoration: none;
+  color: var(--background-color);
+}
+
+.name-link a:hover {
+  opacity: 0.85;
+}
+
+.work h3 {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.work p {
+  font-size: 20px;
+}
+
+.dark {
+  border-radius: 20px;
+  background: #072539;
+  opacity: 0.97;
+}
+
+.project {
+  padding: 20px 25px;
+}
+
 @media (max-width: 900px) {
   body {
     text-align: center;
@@ -221,14 +267,14 @@ img {
   img {
     width: 500px;
   }
-  .work h1 {
+  .inquiry h1 {
     font-size: 35px;
     text-align: left;
   }
-  .work h3 {
+  .inquiry h3 {
     text-align: left;
   }
-  .work {
+  .inquiry {
     padding: 15px 30px 10px;
   }
   .section a {
@@ -243,5 +289,13 @@ img {
   }
   .about p {
     padding: 5px 15px;
+  }
+  .work h1 {
+    font-size: 80px;
+  }
+  .work h3 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 30px;
   }
 }
