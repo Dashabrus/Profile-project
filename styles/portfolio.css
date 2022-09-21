@@ -200,6 +200,7 @@ img {
 .about img {
   width: 450px;
   box-shadow: 5px 5px 22px rgb(0 0 0 / 20%);
+  margin-top: 50px;
 }
 
 .image {
@@ -294,6 +295,12 @@ img {
 .contact-page-link a:hover {
   opacity: 1;
   font-weight: 600;
+}
+
+.bold {
+  font-weight: 900;
+  font-style: italic;
+  color: black;
 }
 
 @media (max-width: 900px) {
